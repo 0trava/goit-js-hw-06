@@ -5,4 +5,6 @@
 const inputFontSizeControl = document.querySelector("#font-size-control");
 const textForChang = document.querySelector("#text");
 
+textForChang.style.fontSize = "40px";
+
 inputFontSizeControl.addEventListener("input", (i) => textForChang.style.fontSize = i.currentTarget.value + `px`);
