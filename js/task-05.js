@@ -19,7 +19,7 @@ if (inputEl.value === "") {
 const inputText = (text) => 
 
     (text.currentTarget.value === '') ?
-    outPutEl.textContent = 'Anonymous!!':
+    outPutEl.textContent = 'Anonymous':
     outPutEl.textContent = text.currentTarget.value;
     console.log(inputEl.value);
 
