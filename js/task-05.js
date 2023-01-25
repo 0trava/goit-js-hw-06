@@ -5,7 +5,12 @@
 const inputEl = document.querySelector("#name-input");
 const outPutEl = document.querySelector("#name-output");
 
+
+outPutEl.textContent = inputEl.attributes.text;
+
+
 const inputText = (text) => 
+
     (text.currentTarget.value === '') ?
     outPutEl.textContent = 'Anonymous':
     outPutEl.textContent = text.currentTarget.value;
